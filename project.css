@@ -1,0 +1,35 @@
+
+.a {
+    position: absolute;
+    top: 200px;
+    left: 475px;
+    font-family: roboto,arial;
+    right: 0;
+    width:350px;
+    height: 125px; 
+    padding: 12px 20px;
+    font-size: 32px;
+    background-color: rgb(85, 16, 128);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.a:hover {
+    background-color: rgba(129, 63, 186, 0.7);
+}
+.a:active{
+    background-image: url('pictures/buttonn.jpg');
+}
+.a:focus + audio{
+    transition: :0;
+    display:none;
+}
+.background{
+    z-index:-1;
+}
